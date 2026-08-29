@@ -1,0 +1,21 @@
+import requests
+
+# Primary (Recommended): OSINT Trace Direct API
+url = "https://api.osinttrace.com/v1/check/whatsapp"
+headers = {
+    "x-osint-key": "YOUR_OSINT_KEY",
+    "Content-Type": "application/json"
+}
+
+# Alternative (API.Market):
+# url = "https://prod.api.market/api/v1/osint-trace-1/whatsapp-checker/check/whatsapp"
+# headers = {"X-Api-Key": "YOUR_API_KEY", "Content-Type": "application/json"}
+
+# Alternative (RapidAPI):
+# url = "https://whatsapp-checker.p.rapidapi.com/check"
+# headers = {"x-rapidapi-key": "YOUR_RAPIDAPI_KEY", "x-rapidapi-host": "whatsapp-checker.p.rapidapi.com", "Content-Type": "application/json"}
+
+payload = {"input": "+19295551234"}
+
+response = requests.post(url, json=payload, headers=headers)
+print(response.json())
