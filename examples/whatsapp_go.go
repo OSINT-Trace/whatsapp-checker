@@ -15,7 +15,7 @@ func main() {
 	// url := "https://prod.api.market/api/v1/osint-trace-1/whatsapp-checker/check/whatsapp"
 
 	// Alternative (RapidAPI):
-	// url := "https://whatsapp-checker.p.rapidapi.com/check"
+	// url := "https://whatsapp-checker4.p.rapidapi.com/check"
 
 	payload := strings.NewReader(`{"input":"+19295551234"}`)
 
@@ -32,7 +32,7 @@ func main() {
 	// Alternative Headers:
 	// req.Header.Add("X-Api-Key", "YOUR_API_KEY") // API.Market
 	// req.Header.Add("x-rapidapi-key", "YOUR_RAPIDAPI_KEY") // RapidAPI
-	// req.Header.Add("x-rapidapi-host", "whatsapp-checker.p.rapidapi.com") // RapidAPI
+	// req.Header.Add("x-rapidapi-host", "whatsapp-checker4.p.rapidapi.com") // RapidAPI
 
 	res, err := http.DefaultClient.Do(req)
 	if err != nil {

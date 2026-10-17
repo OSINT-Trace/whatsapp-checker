@@ -21,8 +21,8 @@ xhr.setRequestHeader('Content-Type', 'application/json');
 // xhr.setRequestHeader('X-Api-Key', 'YOUR_API_KEY');
 
 // Alternative (RapidAPI):
-// xhr.open('POST', 'https://whatsapp-checker.p.rapidapi.com/check');
+// xhr.open('POST', 'https://whatsapp-checker4.p.rapidapi.com/check');
 // xhr.setRequestHeader('x-rapidapi-key', 'YOUR_RAPIDAPI_KEY');
-// xhr.setRequestHeader('x-rapidapi-host', 'whatsapp-checker.p.rapidapi.com');
+// xhr.setRequestHeader('x-rapidapi-host', 'whatsapp-checker4.p.rapidapi.com');
 
 xhr.send(data);

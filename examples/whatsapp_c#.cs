@@ -15,12 +15,12 @@ class Program
             Method = HttpMethod.Post,
             RequestUri = new Uri("https://api.osinttrace.com/v1/check/whatsapp"),
             // Alternative (API.Market): new Uri("https://prod.api.market/api/v1/osint-trace-1/whatsapp-checker/check/whatsapp"),
-            // Alternative (RapidAPI): new Uri("https://whatsapp-checker.p.rapidapi.com/check"),
+            // Alternative (RapidAPI): new Uri("https://whatsapp-checker4.p.rapidapi.com/check"),
             Headers =
             {
                 { "x-osint-key", "YOUR_OSINT_KEY" }
                 // Alternative API.Market: { "X-Api-Key", "YOUR_API_KEY" }
-                // Alternative RapidAPI: { "x-rapidapi-key", "YOUR_RAPIDAPI_KEY" }, { "x-rapidapi-host", "whatsapp-checker.p.rapidapi.com" }
+                // Alternative RapidAPI: { "x-rapidapi-key", "YOUR_RAPIDAPI_KEY" }, { "x-rapidapi-host", "whatsapp-checker4.p.rapidapi.com" }
             },
             Content = new StringContent("{\"input\":\"+19295551234\"}")
             {

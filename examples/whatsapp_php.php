@@ -6,7 +6,7 @@ curl_setopt_array($curl, [
 	// Primary (Recommended): OSINT Trace Direct API
 	CURLOPT_URL => "https://api.osinttrace.com/v1/check/whatsapp",
 	// Alternative (API.Market): "https://prod.api.market/api/v1/osint-trace-1/whatsapp-checker/check/whatsapp"
-	// Alternative (RapidAPI): "https://whatsapp-checker.p.rapidapi.com/check"
+	// Alternative (RapidAPI): "https://whatsapp-checker4.p.rapidapi.com/check"
 	CURLOPT_RETURNTRANSFER => true,
 	CURLOPT_ENCODING => "",
 	CURLOPT_MAXREDIRS => 10,
@@ -20,7 +20,7 @@ curl_setopt_array($curl, [
 		"Content-Type: application/json",
 		"x-osint-key: YOUR_OSINT_KEY"
 		// Alternative API.Market: "X-Api-Key: YOUR_API_KEY"
-		// Alternative RapidAPI: "x-rapidapi-host: whatsapp-checker.p.rapidapi.com", "x-rapidapi-key: YOUR_RAPIDAPI_KEY"
+		// Alternative RapidAPI: "x-rapidapi-host: whatsapp-checker4.p.rapidapi.com", "x-rapidapi-key: YOUR_RAPIDAPI_KEY"
 	],
 ]);
 

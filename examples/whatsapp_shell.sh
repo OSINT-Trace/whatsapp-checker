@@ -16,8 +16,8 @@ curl --request POST \
 
 # Alternative (RapidAPI):
 # curl --request POST \
-#   --url https://whatsapp-checker.p.rapidapi.com/check \
-#   --header 'x-rapidapi-host: whatsapp-checker.p.rapidapi.com' \
+#   --url https://whatsapp-checker4.p.rapidapi.com/check \
+#   --header 'x-rapidapi-host: whatsapp-checker4.p.rapidapi.com' \
 #   --header 'x-rapidapi-key: YOUR_RAPIDAPI_KEY' \
 #   --header 'Content-Type: application/json' \
 #   --data '{"input":"+19295551234"}'

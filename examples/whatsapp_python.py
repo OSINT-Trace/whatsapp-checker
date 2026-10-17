@@ -12,8 +12,8 @@ headers = {
 # headers = {"X-Api-Key": "YOUR_API_KEY", "Content-Type": "application/json"}
 
 # Alternative (RapidAPI):
-# url = "https://whatsapp-checker.p.rapidapi.com/check"
-# headers = {"x-rapidapi-key": "YOUR_RAPIDAPI_KEY", "x-rapidapi-host": "whatsapp-checker.p.rapidapi.com", "Content-Type": "application/json"}
+# url = "https://whatsapp-checker4.p.rapidapi.com/check"
+# headers = {"x-rapidapi-key": "YOUR_RAPIDAPI_KEY", "x-rapidapi-host": "whatsapp-checker4.p.rapidapi.com", "Content-Type": "application/json"}
 
 payload = {"input": "+19295551234"}
 

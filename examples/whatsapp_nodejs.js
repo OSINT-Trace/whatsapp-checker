@@ -15,12 +15,12 @@ const options = {
 // Alternative (RapidAPI):
 // const options = {
 //   method: 'POST',
-//   hostname: 'whatsapp-checker.p.rapidapi.com',
+//   hostname: 'whatsapp-checker4.p.rapidapi.com',
 //   port: null,
 //   path: '/check',
 //   headers: {
 //     'x-rapidapi-key': 'YOUR_RAPIDAPI_KEY',
-//     'x-rapidapi-host': 'whatsapp-checker.p.rapidapi.com',
+//     'x-rapidapi-host': 'whatsapp-checker4.p.rapidapi.com',
 //     'Content-Type': 'application/json'
 //   }
 // };

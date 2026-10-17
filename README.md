@@ -1,6 +1,6 @@
 # WhatsApp Phone Number & Business Intelligence API
 
-[![OSINT Trace - Direct API (Recommended)](https://img.shields.io/badge/OSINT%20Trace-Direct%20API%20(Recommended)-00DF9A?style=for-the-badge&logo=shield)](https://osinttrace.com) [![API.Market](https://img.shields.io/badge/API.Market-8B5CF6?style=for-the-badge)](https://api.market/store/osint-trace-1/whatsapp-checker) [![RapidAPI](https://img.shields.io/badge/RapidAPI-black?style=for-the-badge&logo=rapidapi)](https://rapidapi.com/osint-org-osint-org-default/api/whatsapp-checker)
+[![OSINT Trace - Direct API (Recommended)](https://img.shields.io/badge/OSINT%20Trace-Direct%20API%20(Recommended)-00DF9A?style=for-the-badge&logo=shield)](https://osinttrace.com) [![API.Market](https://img.shields.io/badge/API.Market-8B5CF6?style=for-the-badge)](https://api.market/store/osint-trace-1/whatsapp-checker) [![RapidAPI](https://img.shields.io/badge/RapidAPI-black?style=for-the-badge&logo=rapidapi)](https://rapidapi.com/osint-org-osint-org-default/api/whatsapp-checker4)
 
 An enterprise-grade OSINT API to verify WhatsApp phone number registration and extract rich commercial intelligence (Personal vs. Business classification, official verified checkmarks, company names, product catalog links, HD profile pictures, and direct chat links) by international E.164 phone numbers.
 
@@ -39,7 +39,7 @@ An enterprise-grade OSINT API to verify WhatsApp phone number registration and e
 
 - **OSINT Trace Direct (Recommended)**: Create an account on [OSINT Trace](https://osinttrace.com) and generate your API Key from the [Workspace Dashboard](https://app.osinttrace.com).
 - **API.Market**: Subscribe via [API.Market WhatsApp Checker](https://api.market/store/osint-trace-1/whatsapp-checker).
-- **RapidAPI**: Subscribe via [RapidAPI WhatsApp Checker](https://rapidapi.com/osint-org-osint-org-default/api/whatsapp-checker).
+- **RapidAPI**: Subscribe via [RapidAPI WhatsApp Checker](https://rapidapi.com/osint-org-osint-org-default/api/whatsapp-checker4).
 
 ### 2. Base URL & Authentication
 
@@ -49,7 +49,7 @@ Authentication headers and endpoints vary by provider:
 |:---|:---|:---|:---|
 | **OSINT Trace (Direct - Recommended)** | `https://api.osinttrace.com/v1` | `x-osint-key: YOUR_OSINT_KEY` | `POST /check/whatsapp` |
 | **API.Market** | `https://prod.api.market/api/v1/osint-trace-1/whatsapp-checker` | `X-Api-Key: YOUR_API_KEY` | `POST /check/whatsapp` |
-| **RapidAPI** | `https://whatsapp-checker.p.rapidapi.com` | `X-RapidAPI-Key: YOUR_API_KEY`<br>`X-RapidAPI-Host: whatsapp-checker.p.rapidapi.com` | `POST /check` |
+| **RapidAPI** | `https://whatsapp-checker4.p.rapidapi.com` | `X-RapidAPI-Key: YOUR_API_KEY`<br>`X-RapidAPI-Host: whatsapp-checker4.p.rapidapi.com` | `POST /check` |
 
 ---
 
@@ -98,8 +98,8 @@ curl --request POST \
 
 ```bash
 curl --request POST \
-     --url https://whatsapp-checker.p.rapidapi.com/check \
-     --header 'X-RapidAPI-Host: whatsapp-checker.p.rapidapi.com' \
+     --url https://whatsapp-checker4.p.rapidapi.com/check \
+     --header 'X-RapidAPI-Host: whatsapp-checker4.p.rapidapi.com' \
      --header 'X-RapidAPI-Key: YOUR_API_KEY' \
      --header 'Content-Type: application/json' \
      --data '{"input": "+19295551234"}'
@@ -181,7 +181,7 @@ curl --request POST \
 ## Pricing
 
 - **Direct Plans (Recommended)**: Flexible subscription tiers and bulk volume pricing available on [OSINT Trace Pricing](https://osinttrace.com/pricing).
-- **Marketplace Plans**: Subscriptions also available through [API.Market](https://api.market/store/osint-trace-1/whatsapp-checker) and [RapidAPI](https://rapidapi.com/osint-org-osint-org-default/api/whatsapp-checker/pricing).
+- **Marketplace Plans**: Subscriptions also available through [API.Market](https://api.market/store/osint-trace-1/whatsapp-checker) and [RapidAPI](https://rapidapi.com/osint-org-osint-org-default/api/whatsapp-checker4/pricing).
 - **Free Tier**: Free tier available for evaluation and testing.
 
 ---
