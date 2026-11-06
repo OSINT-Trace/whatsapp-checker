@@ -4,6 +4,13 @@
 
 An enterprise-grade OSINT API to verify WhatsApp phone number registration and extract rich commercial intelligence (Personal vs. Business classification, official verified checkmarks, company names, product catalog links, HD profile pictures, and direct chat links) by international E.164 phone numbers.
 
+> ⚠️ **Metadata Availability & Privacy Notice**:
+> Extracted metadata is **conditional and never guaranteed**. Availability strictly depends on:
+> 1. **Commercial vs. Consumer Tier**: WhatsApp Business accounts publish commercial metadata (business name, verified badge, catalog link, and HD profile photo). Standard personal accounts return presence confirmation (`live: true`), chat links (`profile_url`), and classification (`account_type: "Personal"`), omitting private display names and photos unless exposed via Meta Accounts Center links.
+> 2. **Target Account Privacy Settings**: Personal accounts with avatar privacy set to "Nobody" or "My Contacts" will omit profile photo URLs.
+
+---
+
 ## Table of Contents
 - [Features](#features)
 - [Getting Started](#getting-started)
